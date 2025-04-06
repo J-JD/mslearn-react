@@ -3,7 +3,7 @@ import React from 'react';
 // TODO: Import RecipeTitle
 import RecipeTitle from './RecipeTitle';
 // TODO: Import IngredientList
-
+import IngredientList from './IngredientList';
 
 function App() {
     // TODO: Add recipe object
@@ -28,7 +28,7 @@ function App() {
             {/* TODO: Add RecipeTitle component */}
             <RecipeTitle title={recipe.title} feedback={recipe.feedback} />
             {/* TODO: Add IngredientList component */}
-
+            <IngredientList ingredients={recipe.ingredients} />
         </article>
     )
 }
